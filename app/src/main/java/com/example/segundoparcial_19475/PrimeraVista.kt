@@ -25,8 +25,9 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.foundation.lazy.items
 @Composable
 fun PrimeraVista() {
-    val viewModel = PersonViewModels()
+    val viewModel = Persons()
 
+    //La parte de arriba de la primera pestaña
     Column (
         modifier = Modifier
             .fillMaxSize()
@@ -49,6 +50,7 @@ fun PrimeraVista() {
             )
         }
 
+        //LazyColumn param los cards
         LazyColumn {
             items(viewModel.ListaPersonas()) {
                     person ->

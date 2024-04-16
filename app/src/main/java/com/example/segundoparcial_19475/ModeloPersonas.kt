@@ -1,8 +1,7 @@
 package com.example.segundoparcial_19475
 
-class PersonViewModels {
+class Persons {
     init {}
-
     fun ListaPersonas(): ArrayList<Personas> {
         var people: ArrayList<Personas> = ArrayList<Personas>()
 
@@ -17,4 +16,8 @@ class PersonViewModels {
 
         return people
     }
+}
+
+class ModeloPersonas {
+
 }

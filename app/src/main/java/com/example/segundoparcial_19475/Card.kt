@@ -31,6 +31,7 @@ fun DataCard(img: Int, trabajo: String, genero: String, edad: Int) {
         onClick = {
         }
     ) {
+        //Como estará organizado cada Card
         Row (
             modifier = Modifier
                 .fillMaxWidth()
@@ -44,11 +45,11 @@ fun DataCard(img: Int, trabajo: String, genero: String, edad: Int) {
             Spacer(modifier = Modifier.width(16.dp))
 
             Column {
-                Text(text = trabajo, fontSize = 10.sp)
+                Text(text = trabajo, fontSize = 15.sp)
                 Spacer(modifier = Modifier.height(20.dp))
-                Text(text = genero, fontSize = 10.sp)
+                Text(text = genero, fontSize = 15.sp)
                 Spacer(modifier = Modifier.height(20.dp))
-                Text(text = "$edad años", fontSize = 10.sp)
+                Text(text = "$edad años", fontSize = 15.sp)
             }
         }
     }
