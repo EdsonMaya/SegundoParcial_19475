@@ -1,6 +1,5 @@
 package com.example.segundoparcial_19475
 
-
 class PersonViewModels {
     init {}
 

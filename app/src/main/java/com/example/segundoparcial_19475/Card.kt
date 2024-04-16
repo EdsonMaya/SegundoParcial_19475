@@ -41,8 +41,7 @@ fun DataCard(img: Int, trabajo: String, genero: String, edad: Int) {
                 contentDescription = "Img",
                 modifier = Modifier.size(100.dp)
             )
-
-            Spacer(modifier = Modifier.width(20.dp))
+            Spacer(modifier = Modifier.width(16.dp))
 
             Column {
                 Text(text = trabajo, fontSize = 10.sp)
@@ -54,8 +53,3 @@ fun DataCard(img: Int, trabajo: String, genero: String, edad: Int) {
         }
     }
 }
-
-@Preview(showBackground = true)
-@Composable
-fun PreviewCard() {
-    DataCard(R.drawable.oak, "Albañil", "Hombre", 65)}
