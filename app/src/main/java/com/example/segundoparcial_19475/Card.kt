@@ -45,11 +45,11 @@ fun DataCard(img: Int, trabajo: String, genero: String, edad: Int) {
             Spacer(modifier = Modifier.width(16.dp))
 
             Column {
-                Text(text = trabajo, fontSize = 15.sp)
+                Text(text = trabajo, fontSize = 16.sp)
                 Spacer(modifier = Modifier.height(20.dp))
-                Text(text = genero, fontSize = 15.sp)
+                Text(text = genero, fontSize = 16.sp)
                 Spacer(modifier = Modifier.height(20.dp))
-                Text(text = "$edad años", fontSize = 15.sp)
+                Text(text = "$edad años", fontSize = 16.sp)
             }
         }
     }

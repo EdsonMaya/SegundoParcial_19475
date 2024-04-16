@@ -14,10 +14,8 @@ class Persons {
         people.add(Personas(R.drawable.male04, "mecanico", "chico", 21))
         people.add(Personas(R.drawable.female04, "cocinero", "chica", 32))
 
+
         return people
     }
 }
 
-class ModeloPersonas {
-
-}
