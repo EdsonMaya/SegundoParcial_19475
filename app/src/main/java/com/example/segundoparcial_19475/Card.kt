@@ -27,7 +27,7 @@ import androidx.navigation.compose.rememberNavController
 @Composable
 fun DataCard(img: Int, trabajo: String, genero: String, edad: Int) {
     Card(
-        colors = CardDefaults.cardColors(containerColor = Color(0xFFF2F2F2)),
+        colors = CardDefaults.cardColors(containerColor = Color(0xFF6E7C5D)),
         onClick = {
         }
     ) {

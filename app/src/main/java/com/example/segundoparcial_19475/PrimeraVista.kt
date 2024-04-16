@@ -22,11 +22,9 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import androidx.navigation.NavHostController
 import androidx.compose.foundation.lazy.items
 @Composable
-fun ListView(navController: NavHostController) {
-
+fun PrimeraVista() {
     val viewModel = PersonViewModels()
 
     Column (
@@ -39,14 +37,14 @@ fun ListView(navController: NavHostController) {
             horizontalArrangement = Arrangement.Center,
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text(text = "Pregunta")
+            Text(text = "¿Eres chico o chica?")
             Spacer(modifier = Modifier.width(10.dp))
             Image(
                 painter = painterResource(id = R.drawable.oak),
-                contentDescription = stringResource(id = R.string.oak_content_description),
+                contentDescription = "Foto de oak",
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
-                    .size(200.dp)
+                    .size(70.dp)
                     .clip(CircleShape)
             )
         }
